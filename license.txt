@@ -1,2 +1,2 @@
 This mod is licensed CC0 as per GunshipPenguins Server Essentials.
-I copied much code from his mod, and made changes to reduce it to only the afk kicking, and added a check to only kick when more than a certain number of players are online. 
+I copied much code from his mod, and made changes to reduce it to only the afk kicking, and added a check to only kick when more than a certain number of players are online. To simplify things further this mod checks location rather than actions, a user just has to move, this could be a problem if they are doing a lot of inventory management, but I don't think that somebody will do that much inventory management to get to a point where they get kicked from not moving, unless you set the values really low.
