@@ -1,0 +1,7 @@
+# How many players need to be online for the kicking
+# functions to be executed, and for players to be kicked.
+kickafk_number_of_players (Number of players) int 10
+
+# How often to check for AFK players.
+# This is in server ticks, not seconds.
+kickafk_length_of_time (How ofen to run) int 2000
