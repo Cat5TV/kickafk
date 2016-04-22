@@ -58,7 +58,7 @@ minetest.register_globalstep(function(dtime)
 
 				if players[player_name].last_pos == pos_hash then
 					if not minetest.check_player_privs(player_name,"canafk") == true then
-						minetest.kick_player(player_name, "Network Timeout")
+						minetest.kick_player(player_name, "Disconnected due to inactivity!")
 					end
 				end
 				
